@@ -283,7 +283,7 @@ class PainterController extends ValueNotifier<PainterControllerValue> {
   /// ```dart
   /// void initState(){
   ///   super.initState();
-  ///   WidgetsBinding.instance?.addPostFrameCallback((timestamp){
+  ///   WidgetsBinding.instance.addPostFrameCallback((timestamp){
   ///     controller.addImage(myImage);
   ///   });
   /// }
